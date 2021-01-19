@@ -19,10 +19,7 @@ public:
             int num_cur = nums[c];
             while(1)
             {        
-                if(idx_cur + k >= nums.size())
-                    idx_cur = (idx_cur + k) % nums.size();
-                else
-                    idx_cur = idx_cur + k;
+                idx_cur = (idx_cur + k) % nums.size();
                 
                 int temp = nums[idx_cur];            
                 nums[idx_cur] = num_cur;
