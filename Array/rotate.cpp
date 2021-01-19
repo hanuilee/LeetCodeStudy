@@ -20,7 +20,7 @@ public:
             while(1)
             {        
                 if(idx_cur + k >= nums.size())
-                    idx_cur = (idx_cur + k - nums.size()) % nums.size();
+                    idx_cur = (idx_cur + k) % nums.size();
                 else
                     idx_cur = idx_cur + k;
                 
