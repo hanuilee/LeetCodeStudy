@@ -23,9 +23,9 @@ public:
 
 
 //********************//
-int firstUniqChar(string s) {
-    
+int firstUniqChar(string s) {    
         int count[26] = {0};
+    
         for(int i = 0; i<s.length(); i++)
             count[s[i] - 'a']++;
         
