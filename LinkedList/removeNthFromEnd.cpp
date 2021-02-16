@@ -18,7 +18,6 @@ public:
             countN = countN->next;
             count++;            
         }
-        std::cout << count << std::endl;
         if(count == n)
             return head->next;
         
