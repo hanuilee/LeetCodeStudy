@@ -1,5 +1,5 @@
-#runtime : 12 ms
-#memory usage : 18.7 MB 
+// runtime : 12 ms
+// memory usage : 18.7 MB 
 
 class Solution {
 public:
@@ -16,10 +16,10 @@ public:
 
 
 
-##************************************************##
+/************************************************/
 
-#runtime :4 ms
-#memory usage : 18.9 MB
+// runtime :4 ms
+// memory usage : 18.9 MB
 
 class Solution {
 public:
